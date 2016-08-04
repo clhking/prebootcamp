@@ -31,7 +31,7 @@ elif int(sys.argv[2]) > int(sys.argv[3]):
     error_message()
 
 elif int(sys.argv[2]) > len(sys.argv[1]) or int(sys.argv[3]) > len(sys.argv[1]):
-   print "START or STOP not valid for length of string provided."
+   print "START or STOP invalid for length of string provided."
    error_message()
    
 else:
